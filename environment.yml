@@ -1,0 +1,9 @@
+name: msis822
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - --upgrade pip
+      - -r requirements.txt

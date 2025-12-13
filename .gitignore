@@ -1,0 +1,36 @@
+# ---------- data (keep folder structure only) ----------
+data/raw/*
+data/processed/*
+data/external/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+# ---------- models (keep folder structure only) ----------
+models/*
+!models/.gitkeep
+*.joblib
+*.pkl
+*.h5
+*.keras
+
+# ---------- outputs ----------
+reports/figures/*
+reports/presentations/*
+!reports/figures/.gitkeep
+!reports/presentations/.gitkeep
+
+# ---------- caches / embeddings ----------
+cache/
+*.npy
+
+# ---------- python / notebooks ----------
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.env
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
